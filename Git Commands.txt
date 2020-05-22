@@ -1,0 +1,37 @@
+*********I AM POSTING HERE THE MOST BASIC GIT COMMANDS FOR BEGINNERS.HOPE THIS WILL BE HELPFUL.***********
+**********************************************************************************************************
+
+
+
+
+0.) cd <directory/folder_path>  // move into the directory/folder for which you want to create a repository 
+
+1.) git init  //create an empty repository( commonly called "repo")
+
+2.) git add <file_name.extension>	
+
+3.) git status
+
+4.) git commit -m "commit message here"
+
+5.) git log  //see what commits have been made so far
+
+6.) git rm --cached <file_name.extension>   //remove file from staging area
+
+7.) git branch <branch_name>  //to create a new branch
+
+8.) git checkout <branch_name>  //to move inside any branch
+
+9.) git checkout master  //to move back to master branch
+
+10.) git commit -am "commit message here"
+
+11.) git merge <branch_name>  //to merge the changes you made in this branch with the master branch
+
+12.) git remote add <remote_name> <remote repo link>  // to add remotes to the remote repo
+
+13.) git remote -v  // to check your remotes
+
+14.) git push -u <remote_name> <branch name>  // to push the commites in the current branch to the remote repo 
+
+15.) git pull  // to pull the remote repo into your local repo 
